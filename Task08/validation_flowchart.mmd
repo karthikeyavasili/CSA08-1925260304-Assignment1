@@ -1,0 +1,14 @@
+flowchart TD
+    A([Start]) --> B[/Read farmer entry/]
+    B --> C{Numeric values valid?}
+    C -- No --> D[Show input error]
+    D --> B
+    C -- Yes --> E{Litres > 0 and fat in 2.0..7.0?}
+    E -- No --> F[Reject entry]
+    F --> B
+    E -- Yes --> G[Calculate rate and payment]
+    G --> H[Add payment to ten-day total]
+    H --> I{More entries?}
+    I -- Yes --> B
+    I -- No --> J[Display total]
+    J --> K([End])

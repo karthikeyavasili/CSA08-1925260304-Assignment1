@@ -1,0 +1,4 @@
+farmer_id,litres,fat,snf,shift,rate_rs,payment_rs
+F001,10,3.5,8.5,AM,30.00,300.00
+F002,8.5,4.2,8.7,PM,33.40,283.90
+F003,12,3.1,8.3,AM,27.80,333.60
